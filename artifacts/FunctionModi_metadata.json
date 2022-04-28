@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"14_FunctionModifier.sol": "FunctionModi"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"14_FunctionModifier.sol": {
+			"keccak256": "0xf01ed27612721e48ba1e39f8b28ba9f722e527db7d5a941326b8186497bf11fc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://45ffa3e3c93d62a64195e5e36e1c0677249232b217dae4bedc9164c7c6f03a3e",
+				"dweb:/ipfs/QmTPxiJeifaz2hj5RnvYBB8jPxJMiLWWVnWuo1PEsU7XRV"
+			]
+		}
+	},
+	"version": 1
+}
