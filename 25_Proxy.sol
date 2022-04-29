@@ -25,7 +25,36 @@ contract TestContract2 {
 }
 
 contract Proxy {
-    function deploy(bytes memory _code) external payable {
-        new TestContract1();
+    event Deploy(address);
+    function deploy(bytes memory _code) external payable returns (address addr) {
+        address addr;
+        assembly {
+            addr := create(callvalue(), add(_code, 0x20), mload(_code))
+        }
+        require(addr != address(0), "deploy failed");
+
+        emit Deploy(addr);
+
+    }
+
+    function execute(address _target, bytes memory _data) external payable {
+        (bool success, ) = _target.call{value: msg.value}(_data);
+        require(success, "failed");
+    }
+}
+
+contract Helper {
+    function getBytecode1() external pure returns (bytes memory) {
+        bytes memory bytecode = type(TestContract1).creationCode;
+        return bytecode;
+    }
+
+    function getBytecode2(uint _x, uint _y) external pure returns (bytes memory) {
+        bytes memory bytecode = type(TestContract2).creationCode;
+        return abi.encodePacked(bytecode, abi.encode(_x, _y));
+    }
+
+    function getCalldata(address _owner) external pure returns (bytes memory) {
+        return abi.encodeWithSignature("setOwner(address", _owner);
     }
 }
