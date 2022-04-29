@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"35_Immutable.sol": "Immutable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"35_Immutable.sol": {
+			"keccak256": "0x4595905f24af4e75e93fc8c044e9be2975a4ab39148a6269de2df67b11213153",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f9b21bb37d58a68c7875fd4eda0331f284aa027be3e26e16f0fb20c0954b4ba1",
+				"dweb:/ipfs/QmRR5oKywb3haMBJQ59ec3XjiePyoEx1HpMotY3NxvS5Q2"
+			]
+		}
+	},
+	"version": 1
+}

@@ -4,47 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "arr",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					}
-				],
-				"name": "remove",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "test",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -58,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"20_ArrayReplaceLast.sol": "ArrayReplaceLast"
+			"21_Mapping.sol": "ArrayReplaceLast"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"20_ArrayReplaceLast.sol": {
-			"keccak256": "0xe89cc4d9ccb9c0b939beb1bad180503f77f1dd9189f3d12c00cea6483d46aa69",
+		"21_Mapping.sol": {
+			"keccak256": "0x26ad85303b60ac8cf1e10c244300351bfa9625d944c4cfece7263914352f97a3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1f836f5108de80ff3813fc581222b7561b6fa293c7ec7dd0674c2cdf9ca8b3af",
-				"dweb:/ipfs/QmcEQ28XNiKYiKxepC4SJBmwYEhCEp4fEqJ9jCfezDZoDo"
+				"bzz-raw://dade7801629036f2236153a0e74f326ba2ba886d294be97621ecbf87664a6efd",
+				"dweb:/ipfs/QmVapEkHhG9QNKa1qgvj57SPkyF7mRYLTGbk4abEeM2VhQ"
 			]
 		}
 	},

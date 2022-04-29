@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"40_CallOtherContracts.sol": "CallTestContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"40_CallOtherContracts.sol": {
+			"keccak256": "0x880342f102eabff070f76e2f95e1a8fd413157f2de2a8569d89d5467f4516da2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://26e6d771f9d538930b63fcf3f91ae8a0903c5a6d4d57db7016afdde1181937bb",
+				"dweb:/ipfs/QmZzuNrMhHwbnM6DF5Lo22vQiPJ3LBkSw5UZxXykaGtXNy"
+			]
+		}
+	},
+	"version": 1
+}

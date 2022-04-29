@@ -4,7 +4,35 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dec",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "inc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"15_Constructor.sol": "Counter"
+			"41_Interface.sol": "Counter"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +60,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"15_Constructor.sol": {
-			"keccak256": "0xdc8f780f9bdff22295829d5decdc4137327ae8dba55170977003bc7acdcaade6",
+		"41_Interface.sol": {
+			"keccak256": "0x61f34ca576fa98620d30f6698098954ce58494f0354a60a611c0deb3acd16978",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://286ec1fa66b35d1657a39838b7e8d17347f9e25ac774663cf6da9a13214f0927",
-				"dweb:/ipfs/QmX2FPDVmhAdR2nPV1Vb8FVVG4eWDyuATyAYPptWn8rW9t"
+				"bzz-raw://314793085348e9dcfbf9a8cc9887675ce0a959448a06b8660e5dc401b97c50d9",
+				"dweb:/ipfs/QmbfV1yuaW2BnFoV4NxHzwjsNZKxCejTm1iyKecDBybRoj"
 			]
 		}
 	},

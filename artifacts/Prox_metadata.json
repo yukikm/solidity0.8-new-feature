@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"25_Proxy.sol": "Prox"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"25_Proxy.sol": {
+			"keccak256": "0x0ead9d71ab09711fbd8caebe1db3fd275dd3841f6a1a9ef34afb79d37a61900c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8c7e63a8c0bd75f3ec027c78598197ef8c7fa425aa4f760b896fc72564e60d0c",
+				"dweb:/ipfs/QmZR3SdC3YURYvmoKYrvHLunykPmFaT297zaL7QQSftK28"
+			]
+		}
+	},
+	"version": 1
+}

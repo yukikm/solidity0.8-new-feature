@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"35_Immutable.sol": "Immutab"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"35_Immutable.sol": {
+			"keccak256": "0xf2594274e3fbf52979b1e7adc1ed5c467171ee06f86f34ce7096636a566d007b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4ec0611e0ae06fe7416b8f6aa7632a83130556127920947e9bc6cd9618707a5a",
+				"dweb:/ipfs/QmQrH2yyWazri7f6jNRP9K5CNg4SiNTyzWsz9pWhxtj8Lp"
+			]
+		}
+	},
+	"version": 1
+}

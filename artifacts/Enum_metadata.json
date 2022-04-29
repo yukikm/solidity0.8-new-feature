@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"26_DataLocations.sol": "Enum"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"26_DataLocations.sol": {
+			"keccak256": "0x4aa3acf57dade42c012aa8b1aaa57ccf57cb43e18fcd20c286f79f547a81e3d6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://995ea09ad2f881bd94bf09075c89f364802aeff09ba3b0214b5caea452106a30",
+				"dweb:/ipfs/Qmat5Gd8BLpMNxtRvEXZURGvq5tmQzenpjAEWMQjvon5p3"
+			]
+		}
+	},
+	"version": 1
+}
